@@ -20,6 +20,7 @@ namespace ServerApi.Controllers
         {
             List<User> listUser = UserStore.GetAllUsers();
             return listUser;
+
         }
 
         // GET api/<UsersController>/5
